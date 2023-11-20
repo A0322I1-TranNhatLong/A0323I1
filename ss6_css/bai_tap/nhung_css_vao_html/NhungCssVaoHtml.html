@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhúng CSS vào trang HTMl</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #internal {
+            color: blue;
+            font-size: 120%;
+            border: 1px solid grey;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1 style="color: darkblue">This is heading</h1>
+<p id="inline" style="color: green;font-size: 120%;border: 1px solid grey;padding:10px">This is an ordinary paragraph.
+    Notice that this text is blue. The default text color for a page is defined in the body selector.</p>
+<p id="internal">This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is
+    defined in the body selector.</p>
+<p id="external">This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is
+    defined in the body selector.</p>
+</body>
+</html>
